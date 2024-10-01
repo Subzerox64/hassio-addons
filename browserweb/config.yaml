@@ -1,9 +1,10 @@
 ---
 name: Browserweb
-version: 1.1
+version: dev
 slug: Browserweb
 description: An addon that builds a browser for use in the webui.
 url: https://github.com/Subzerox64/hassio-addons
+advanced: true
 startup: application
 arch:
   - amd64
