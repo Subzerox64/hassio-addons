@@ -2,17 +2,16 @@ ARG BUILD_FROM=ghcr.io/hassio-addons/base:16.3.2
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
-WORKDIR /addons/Node
+WORKDIR /addons/browserweb/datadir
 
-
-
-# Copy root filesystem
-COPY rootfs /
 
 # Setup base
 RUN apk add --no-cache \
     coreutils=9.5-r1 \
-    wget=1.24.5-r0
+    wget=1.24.5-r0 \
+    node \
+    npm 
+RUN npm install puppeteer-core vnc-rfb-client
 
 # Build arguments
 ARG BUILD_ARCH
