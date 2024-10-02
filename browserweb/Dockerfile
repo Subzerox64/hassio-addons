@@ -9,8 +9,8 @@ WORKDIR /addons/browserweb/datadir
 RUN apk add --no-cache \
     coreutils=9.5-r1 \
     wget=1.24.5-r0 \
-    node \
-    npm 
+    node=22.9.0 \
+    npm=10.8.3
 RUN npm install puppeteer-core vnc-rfb-client
 
 # Build arguments
