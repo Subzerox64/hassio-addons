@@ -1,0 +1,3 @@
+!/usr/bin/env bash
+echo starting...
+npm start
