@@ -1,0 +1,17 @@
+}
+  "name": "Puppeteer",
+  "version": "1.0",
+  "slug": "nodejs_addon",
+  "description": "A Node.js add-on that runs puppeteer for home assistant.",
+  "arch": ["armv7", "amd64", "aarch64"],
+  "startup": "application",
+  "boot": "auto",
+  "hassio_api": true,
+  "network": "host",  
+  "options": {
+  "port": 5908
+ },
+  "schema": {
+    "port": "int"
+ }
+}
