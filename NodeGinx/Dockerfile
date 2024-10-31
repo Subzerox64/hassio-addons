@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:apline3.19
 
 # Environment variables
 ENV \
