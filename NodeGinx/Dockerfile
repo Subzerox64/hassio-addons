@@ -1,4 +1,4 @@
-FROM node:apline3.19
+FROM node:23-alpine
 
 # Environment variables
 ENV \
@@ -15,6 +15,7 @@ ENV \
     PYTHONUNBUFFERED=1 \
     YARN_HTTP_TIMEOUT=1000000 \
     TERM="xterm-256color" 
+    
 
 # Install base system
 ARG BUILD_ARCH=amd64
