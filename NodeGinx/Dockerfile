@@ -16,7 +16,6 @@ ENV \
     YARN_HTTP_TIMEOUT=1000000 \
     TERM="xterm-256color" 
     
-RUN node -v 
 
 # Install base system
 ARG BUILD_ARCH=amd64
