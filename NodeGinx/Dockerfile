@@ -21,10 +21,6 @@ ENV \
     YARN_HTTP_TIMEOUT=1000000 \
     TERM="xterm-256color" 
 
-RUN apk add --no-cache libcrypto3 libssl3 musl-utils musl libstdc++ bash curl npm node
-
-RUN bash
-
 RUN node -v && npm -v
 
 # Install base system
