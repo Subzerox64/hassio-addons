@@ -23,7 +23,9 @@ ENV \
 
 RUN apk add --no-cache libcrypto3 libssl3 musl-utils musl libstdc++ bash curl npm node
 
-SHELL [/bin/bash", "bash"]
+RUN bash
+
+RUN node -v && npm -v
 
 # Install base system
 ARG BUILD_ARCH=amd64
