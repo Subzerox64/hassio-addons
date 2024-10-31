@@ -10,3 +10,4 @@ arch:
   - armv7
 hassio_api: true
 host_network: true
+init: false
