@@ -16,7 +16,7 @@ ENV \
     YARN_HTTP_TIMEOUT=1000000 \
     TERM="xterm-256color" 
 
-RUN apk add coreutils
+RUN apk add coreutils node npm
 
 # Install base system
 ARG BUILD_ARCH=amd64
