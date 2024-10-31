@@ -1,0 +1,10 @@
+---
+name: NodeGinx amalgamation 
+version: dev
+slug: nodeginx
+description: A Node.js and Nginx monstrocity that somehow works
+url: https://github.com/Subzerox64/hassio-addons/
+arch:
+  - aarch64
+  - amd64
+  - armv7
