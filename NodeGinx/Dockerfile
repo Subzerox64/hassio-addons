@@ -1,6 +1,4 @@
-ARG BUILD_FROM=node:latest
-# hadolint ignore=DL3006
-FROM ${BUILD_FROM}
+FROM node:20
 
 # Environment variables
 ENV \
