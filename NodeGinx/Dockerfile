@@ -15,7 +15,8 @@ ENV \
     PYTHONUNBUFFERED=1 \
     YARN_HTTP_TIMEOUT=1000000 \
     TERM="xterm-256color" 
-    
+
+RUN /bin/sh apk add coreutils
 
 # Install base system
 ARG BUILD_ARCH=amd64
@@ -24,3 +25,5 @@ EXPOSE 8080
 EXPOSE 443
 EXPOSE 3000
 EXPOSE 9000
+
+CMD ["node", "-v"]
