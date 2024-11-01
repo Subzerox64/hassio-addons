@@ -21,6 +21,8 @@ RUN apk add coreutils nodejs npm
 # Install base system
 ARG BUILD_ARCH=amd64
 
+COPY app.js
+
 EXPOSE 8080
 EXPOSE 443
 EXPOSE 3000
