@@ -1,6 +1,6 @@
 ---
 name: NodeGinx amalgamation 
-version: 0.2
+version: 0.3
 slug: nodeginx
 description: A Node.js and Nginx monstrocity that somehow works
 url: https://github.com/Subzerox64/hassio-addons/
