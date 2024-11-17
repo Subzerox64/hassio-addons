@@ -1,3 +1,3 @@
-npm i -g express
+echo "hiii"
 npm i
 node /app/script.mjs
