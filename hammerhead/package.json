@@ -5,7 +5,7 @@
   "main": "script.mjs",
   "scripts": {
     "test": "npm -v",
-    "start": "node /app/script.mjs"
+    "start": "npm install && node /app/script.mjs"
   },
   "keywords": [
     "hi"
