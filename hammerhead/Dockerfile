@@ -2,7 +2,7 @@ FROM node:21-alpine
 
 WORKDIR /app
 
-COPY script.js /app/script.js
+COPY script.mjs /app/script.mjs
 
 RUN apk update
 RUN apk add python3 py3-pip alpine-sdk openssl-dev build-base python3-dev
