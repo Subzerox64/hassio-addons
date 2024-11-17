@@ -1,0 +1,6 @@
+name: Rammerhead
+slug: rammerhead
+version: dev
+description: Rammerhead in the browser
+host_network: true
+host_dbus: true
