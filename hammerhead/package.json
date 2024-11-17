@@ -11,5 +11,9 @@
     "hi"
   ],
   "author": "subzero",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@rubynetwork/rammerhead": "^1.3.5"
+  }
 }
