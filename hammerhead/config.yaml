@@ -1,6 +1,6 @@
 name: Rammerhead
 slug: rammerhead
-version: alpha-v1.0.0_3
+version: alpha-v1.0.1
 arch:
   - aarch64
   - amd64
