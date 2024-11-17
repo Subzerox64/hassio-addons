@@ -1,3 +1,4 @@
 echo "hiii"
-npm i
+npm install -g express
+npm install -g @rubynetwork/rammerhead
 npm start
