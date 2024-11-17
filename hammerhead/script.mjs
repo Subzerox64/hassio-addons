@@ -4,7 +4,7 @@ import { createRammerhead, shouldRouteRh, routeRhUpgrade, routeRhRequest } from 
 
 const app = express();
 const server = createServer();
-const rh = rammerhead.createRammerhead({
+const rh = createRammerhead({
     logLevel: 'debug', //Options are: disabled, debug, traffic, info, warn, error (default: debug)
     reverseProxy: false, //whether or not this server is running behind a reverse proxy (default: false)
     disableLocalStorageSync: false, //disable localstorage sync (not recommended) (default: false)
