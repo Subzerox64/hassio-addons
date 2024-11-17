@@ -1,0 +1,15 @@
+{
+  "name": "subzero",
+  "version": "1.0.0",
+  "description": "aww its so cute!",
+  "main": "script.mjs",
+  "scripts": {
+    "test": "npm -v",
+    "start": "node /app/script.mjs"
+  },
+  "keywords": [
+    "hi"
+  ],
+  "author": "subzero",
+  "license": "ISC"
+}
