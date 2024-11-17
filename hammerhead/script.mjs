@@ -1,4 +1,4 @@
-import http from 'http';
+import http from 'node:http';
 import { createRammerhead, shouldRouteRh, routeRhUpgrade, routeRhRequest } from '@rubynetwork/rammerhead';
 
 const rh = createRammerhead({
