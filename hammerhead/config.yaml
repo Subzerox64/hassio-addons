@@ -1,6 +1,6 @@
 name: Rammerhead
 slug: rammerhead
-version: dev
+version: alpha
 arch:
   - aarch64
   - amd64
@@ -8,3 +8,4 @@ arch:
 description: Rammerhead in the browser
 host_network: true
 host_dbus: true
+init: false
